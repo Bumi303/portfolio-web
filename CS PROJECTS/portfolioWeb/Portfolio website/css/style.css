@@ -1,0 +1,104 @@
+body {
+
+    background-color:#020122;
+
+    color: #f2f3ae; 
+    font-size: 15px; 
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+
+
+h1{
+    color: #f2f3ae; 
+    font-size: 55px; 
+    text-align: center;
+} 
+
+/*---------------------------Input--------------------*/
+/*textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    border: 2px solid rgba(165, 42, 42, 0.548);
+    background: rgb(46, 45, 45);
+}
+
+
+textarea:focus, input:focus, input, select, textarea  {
+    color: #e2b714;
+}*/
+
+/* Classes */
+
+.header {
+    /*background: #fc9e4f;*/
+    font-size: 55px; 
+    text-align: center;
+    padding-bottom: 80px;
+    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.box {
+    background: darkslategray;
+    box-shadow: 6px 8px burlywood;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-width: 3px;
+    border-color:rgba(165, 42, 42, 0.548);
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.testimg {
+    padding: 50px;
+    margin-top: 50%;
+    text-align: center;
+}
+
+.pageselector {
+    /*logistics*/
+    
+    overflow: auto;
+    display: inline-block;
+    width: auto;
+    margin-top: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+
+
+    /*design*/
+    border-width: 2px;
+    border-radius: 20px;
+    
+    border-color:#ff521b;
+    border-style: solid;
+    background: #020122;
+}
+
+
+.pageselector:hover {
+    background: #fc9e4f;
+    transition: 1s;
+}
+
+/* hover link visited active is the order */
+a {
+    color:#f2f3ae;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #020122;
+}
