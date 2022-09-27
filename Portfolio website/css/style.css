@@ -1,0 +1,143 @@
+body {
+
+    background-color:#020122;
+
+    color: #f2f3ae; 
+    font-size: 15px; 
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #ff521b;
+
+}
+
+h1 {
+    color: #f2f3ae; 
+    font-size: 55px; 
+    text-align: left;
+} 
+
+h2 {
+    font-size: 35px; 
+    text-align: left;
+}
+
+
+/* Classes */
+.gitimage {
+    filter: invert(100%);
+}
+
+.gitimage:hover {
+    filter: invert(0%);
+    transition: .5s;
+}
+
+.logo {
+    display: flex;
+    letter-spacing: 5px;
+    font-size: 20px;
+
+}
+
+.navLinks {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10;
+    width: 20%;
+}
+
+.navLinks a{
+    text-decoration: none;
+    
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.header {
+    /*background: #fc9e4f;*/
+    font-size: 55px; 
+    text-align: center;
+    padding-bottom: 80px;
+    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.box {
+    background: darkslategray;
+    box-shadow: 6px 8px burlywood;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-width: 3px;
+    border-color:rgba(165, 42, 42, 0.548);
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.pageselector {
+    /*logistics*/
+    
+    overflow: auto;
+    display: inline-block;
+    width: auto;
+    margin-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+
+
+    /*design*/
+    border-width: 2px;
+    border-radius: 20px;
+    
+    border-color:#ff521b;
+    border-style: solid;
+    background: #020122;
+}
+
+
+.pageselector:hover {
+    background: #fc9e4f;
+    transition: .5s;
+}
+
+/* hover link visited active is the order */
+a {
+    color:#f2f3ae;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #020122;
+}
+
+
+/* RESUME PAGE */
+
+.resume {
+    padding-top: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
